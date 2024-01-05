@@ -1,13 +1,13 @@
 import { Container, Profile } from "./styles";
 import { Button } from "../Button";
-import { StyledInput } from "../Input/styles";
+import { Input } from "../Input";
 
 export function Header() {
   return (
     <Container>
       <h1>RocketMovies</h1>
 
-      <StyledInput placeholder="Pesquisar pelo título" />
+      <Input placeholder="Pesquisar pelo título" />
 
       <Profile>
         <div>
