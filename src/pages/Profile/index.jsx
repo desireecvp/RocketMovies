@@ -52,7 +52,7 @@ export function Profile() {
                 icon={<FiLock/>}
                 />
 
-                <Button title="Voltar"></Button>
+                <Button title="Salvar"></Button>
       </Form>
     </>
   );
