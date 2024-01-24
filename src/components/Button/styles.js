@@ -25,6 +25,7 @@ export const Container = styled.button`
   align-items: center;
   justify-content: center;
   height: 56px;
+  gap: 8px;
   border: 0;
   padding: ${(props) => props.variant != 'link' ? '0 16px' : 0};
   border-radius: 10px;
